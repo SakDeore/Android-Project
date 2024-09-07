@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg_page"
+    tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Jijamata Girls"
+    android:gravity="center"
+    android:layout_marginTop="214dp"
+    android:textStyle="italic"
+    android:textColor="@color/teal"
+    android:textSize="50dp"
+    android:fontFamily="serif"
+    />
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Hostel"
+        android:textSize="46dp"
+        android:textColor="@color/teal"
+        android:textStyle="italic"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="100dp"
+        android:fontFamily="serif"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:text="log in"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="25dp"
+        android:background="#EF9B1E"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Signbutton"
+        android:text="Sign In"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="160dp"
+        android:background="#EF9B1E"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        />
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="30dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/facebook" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/instagram" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/youtube" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/www" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
